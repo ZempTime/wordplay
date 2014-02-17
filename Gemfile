@@ -50,4 +50,3 @@ group :development do
   gem 'binding_of_caller'
 end
 
-gem 'devise', "~> 3.2.2"
