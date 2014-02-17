@@ -1,0 +1,2 @@
+module StoryBiteHelper
+end

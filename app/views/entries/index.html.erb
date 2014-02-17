@@ -1,0 +1,25 @@
+<div class="row">
+  
+  <div class="col-md-6 col-md-offset-3">
+    <h1>Once upon a time...</h1>
+  </div>
+
+  <div class="col-md-6 col-md-offset-3">
+    <% @entries.each do |entry| %>
+      <blockquote>
+        <%= entry.sentence %>
+      </blockquote>
+    <% end %>
+  </div>
+
+   <div class="col-md-6 col-md-offset-3">
+     <%= form_for Entry.new do |f| %>
+       <%= f.label "Continue the story:" %>
+       <div>
+         <%= f.text_area :sentence, :cols => "30" %>
+       </div>
+       <%= f.submit %>
+     <% end %>
+   </div>
+
+</div>
