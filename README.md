@@ -232,3 +232,7 @@ not_found_in_database: "Invalid login or password."
 ```
 
 Fin!
+
+official devise guide that goes through all the different branches
+
+https://github.com/plataformatec/devise/wiki/How-To:-Allow-users-to-sign-in-using-their-username-or-email-address
